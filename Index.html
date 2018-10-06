@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <!-- área de inicialización e implementación de los css (materialize y el propio) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Mis Perris Proyecto</title>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/pata.ico">  
+</head>
+
+<body>
+    <!-- Dividir en 4 grandes div -->
+
+<!-- 1.Contenedor Header donde contendrá el logo y los enlaces pertinentes-->
+    <div class="header">
+
+        <nav>
+            <div class="nav-wrapper teal lighten-2">
+                <img class="responsive-img" src="img/logo.png" alt="imagenlogo">
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="quienessomos.html">Quienes somos</a>
+                    </li>
+                    <li>
+                        <a href="#">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="formulario.html" target="blank">Contactanos Para Adoptar!</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- esta ul cumple la funcion de contraer la información a una "hamburguesa" al momento de minimzar la página -->
+        <ul class="sidenav" id="mobile-demo">
+
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Quienes somos</a>
+            </li>
+            <li>
+                <a href="#">Servicios</a>
+            </li>
+            <li>
+                <a href="formulario.html" target="blank">Contactanos</a>
+            </li>
+        </ul>
+    </div>
+
+<!-- 2.Banner donde contendrá el carrusel y las redes sociales -->
+    <div class="banner">
+<!-- Carrusel importado materialize -->
+        <div class="row carrusel_fondo">
+            <div class="carousel carousel-slider col s12 col l7 offset-l2 carrusel_fondo">
+                <a class="carousel-item" href="#one!">
+                    <img src="img/adoptados/Apolo.jpg" alt="apolo">
+                    <p class="texto_encima">Apolo, simpático perro regalón y hermoso.</p>
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="img/adoptados/Duque.jpg" alt="duque">
+                    <p class="texto_encima">Duque, Mi compañero de vida. Gracias a la vida por darme la oportunidad de adoptarlo.</p>
+                    <p>hola</p>
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="img/adoptados/Tom.jpg" alt="tom">
+                    <p class="texto_encima color_blanco">Tom, Es mi mejor compañía y sé que es feliz desde que llegó a casa.</p>
+                </a>
+
+            </div>
+            <br>
+            <!-- Redes sociales -->
+            <div class="social col s4 flow-text offset-s4  offset-l9">
+                <a href="">
+                    <i class="fa fa-facebook color_blanco" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-google-plus color_blanco" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-instagram color_blanco" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-envelope color_blanco" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+<!-- 3.content donde contendrá todo lo que es el contenido en sí -->
+    <div class="content row">
+        <div class="contenidoizquierda offset-s1  col l5 texto_derecha">
+            <h4>Rescate</h4>
+            <h6>Etapa uno</h6>
+            <div class="raya rayaderecha"></div>
+            <div class="texto texto_derecha clear">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo obcaecati ea sapiente assumenda animi? Voluptatibus
+                    perferendis delectus voluptates a
+                </p>
+            </div>
+          <!-- Imagen, z-depth queda más del corte -->
+            <img class="responsive-img z-depth-4" src="http://static.iris.net.co/4patas/upload/images//2017/2/24/4811_1.jpg" alt="Imagen1"
+            />
+        </div>
+
+        <div class="contenidoderecha col l5 texto_izquierda">
+            <img class="responsive-img z-depth-4" src="https://www.lavanguardia.com/r/GODO/LV/p5/WebSite/2018/04/16/Recortada/img_jelcacho_20160205-123319_imagenes_lv_propias_jelcacho_a_gos_3-kcDH-U442616035007PwG-992x558@LaVanguardia-Web.jpg"
+                alt="imagen2">
+            <h4>Crownfunding</h4>
+            <h6>Financiamiento</h6>
+            <div class="raya"></div>
+            <div class="texto texto_izquierda clear">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo obcaecati ea sapiente assumenda animi? Voluptatibus
+                    perferendis delectus voluptates a
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- Galería de fotos importada desde materialize -->
+    <div class="container galeria">
+        <h4>Rescatados</h4>
+        <br>
+        <br>
+        <div class="row card">
+            <div class="col s4 m6 l4">
+                <img src="img/rescatados/Bigotes.jpg" class="materialbox responsive-img card" height="100" alt="imagen1">
+                <h5>PERRO1</h5>
+                <h6>Descripcion</h6>
+
+            </div>
+            <div class="col s4 m6 l4">
+                <img src="img/rescatados/Chocolate.jpg" class="materialbox responsive-img card" alt="imagen1">
+                <h5>PERRO2</h5>
+                <h6>Descripcion</h6>
+            </div>
+            <div class="col s4 m6 l4">
+                <img src="img/rescatados/Luna.jpg" class="materialbox responsive-img card" height="70" alt="imagen1">
+                <h5>PERRO3</h5>
+                <h6>Descripcion</h6>
+            </div>
+
+        </div>
+        <div class="row card">
+            <div class="col s4 m6 l4">
+                <img src="img/rescatados/Maya.jpg" class="materialbox responsive-img card" height="100" alt="imagen1">
+                <h5>PERRO4</h5>
+                <h6>Descripcion</h6>
+            </div>
+
+            <div class="col s4 m6 l4">
+                <img src="img/rescatados/Oso.jpg" class="materialbox responsive-img card" height="100" alt="imagen1">
+                <h5>PERRO5</h5>
+                <h6>Descripcion</h6>
+            </div>
+            <div class="col s4 m6 l4">
+                <img src="img/rescatados/Pexel.jpg" class="materialbox responsive-img card" height="100" alt="imagen1">
+                <h5>PERRO6</h5>
+                <h6>Descripcion</h6>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <h6>Desarrollado por Luis Al Cuadrado</h6>
+    </div>
+
+    <!-- Sección Script -->
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true
+        });
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+   
+        $(document).ready(function () {
+            $('.materialbox').materialbox();
+
+        });
+    </script>
+</body>
+
+</html>

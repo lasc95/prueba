@@ -1,0 +1,83 @@
+
+/* ESTE ES EL ÚNICO ARCHIVO.CSS QUE CREAREMOS, LOS OTROS DEBES DESCARGARLOS DESDE LA PÁGINA MATERIALIZECSS.COM/GETTING START */
+/* La clase banner, donde irá la imagen del perro. es importante que esté centrado, para eso le ponemos el text-align, sino, 
+se irá hacia la izquierda. Quítalo y prueba para que veas como funciona */
+
+#banner{
+background: turquoise;
+text-align: center;
+}
+
+/* Una clase que encontrarás en el html que sirve para tirar los textos hacia la derecha de un bloque (fíjate en donde está en el html. Quítalo y ve cómo funciona) */
+.texto_derecha{
+    text-align: right;
+}
+
+/* Eso es importante, aquí creamos una raya que va debajo de los títulos del content */
+/* Puedes cambiar los valores para que veas cómo se comportan */
+.raya{
+    width: 30%;
+    border-top: 3px solid black;
+    margin: 10px 0;
+}
+
+/* La raya se corre hacia la derecha. la etiqueta float es para todos los elementos que no sean texto, ya que si fuese texto, usaríamos el text-align c: */
+.rayaderecha{
+    float: right;
+}
+
+
+/* Este es más complejo, pero mira, quita esta clase y fíjate en la parte de la raya, verás que se superpone al texto.
+ Clear:both ayuda a que cuando la raya se ponga encima del texto, esta se corra hacia arriba y no interfiera */
+.clear{
+    clear: both;
+}
+
+.texto_izquierda{
+    text-align: left;
+}
+
+.footer{
+    background: steelblue;
+    height: 100px;
+    width: 100%;
+    color: white; 
+    text-align: center;
+}
+
+
+.carrusel_fondo{
+    background: #4dd0e1 ;
+}
+
+.galeria{
+height: 80%;
+width: 80%;
+}
+.galeria h4{
+    text-align: center;
+}
+
+.social_fondo{
+    background:cadetblue;
+}
+
+
+.social{
+    padding: 10px;
+    border-bottom: #4dd0e1;
+}
+
+.color_blanco{
+    color: #ffff;
+}
+
+.texto_encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+}
+.texto_debajo{
+    text-align: unset;
+}
